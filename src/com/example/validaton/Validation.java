@@ -542,7 +542,7 @@ public class Validation {
     // 176/11 = 16 remainder 0 so bank acct number is valid
 
     int totalSum = 0;
-    String myDigit = (String) weightDigits.get(18);
+    //String myDigit = (String) weightDigits.get(18);
 
     //loop through the account number and multiply/add everything together
      for (int counter = 0; counter < fullAccountNumber.length ; counter++)
