@@ -69,9 +69,9 @@ public class Validation {
         return weightFactor;
         }
 
-    public static String errorMessage(String error) {
+    public static void errorMessage(String error) {
         System.out.println(error);
-        String bankAccountError = error
+        String bankAccountError = error;
         boolean isAccountValid = false;
     }
 
